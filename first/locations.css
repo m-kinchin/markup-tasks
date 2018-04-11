@@ -1,0 +1,12 @@
+.locations {
+  flex-basis: 330px;
+  width: 100%;
+}
+
+.location {
+  color: #47AEBE;
+}
+
+.active-location {
+  color: black;
+}
