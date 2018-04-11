@@ -10,6 +10,7 @@ body {
 
 .main {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main-left {
@@ -24,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  flex-basis: 400px;
+  flex-basis: 300px;
   margin-left: 8px;
   margin-right: 8px;
 }
