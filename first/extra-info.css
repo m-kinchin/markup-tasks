@@ -233,8 +233,12 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .comments {
     margin-bottom: 8px;
+  }
+
+  .extra-info {
+    flex-basis: 600px;
   }
 }

@@ -32,11 +32,12 @@
   font-weight: 600;
   flex-direction: column;
   font-size: 12px;
+  height: calc(100% - 62px);
 }
 
 .details-row {
   display: flex;
-  flex-basis: 32px;
+  flex: 1;
 }
 
 .details-cell-content {
