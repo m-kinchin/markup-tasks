@@ -49,6 +49,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-basis: 30px;
+  flex-shrink: 0;
 }
 
 .area-body {
@@ -80,25 +81,22 @@ body {
   margin-bottom: 5px;
 }
 
-
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #606060;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: #bbb;
   border-radius: 2px;
 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #c7d2d3;
+  background: #aaa;
 }
 
 @media (max-width: 768px) {

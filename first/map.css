@@ -1,6 +1,7 @@
 .map {
-  flex-basis: 230px;
+  flex-basis: 200px;
   flex-grow: 3;
+  min-height: 200px;
 }
 
 .map-content{
