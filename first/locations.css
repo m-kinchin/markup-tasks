@@ -5,6 +5,54 @@
 
 .locations-content {
   font-size: 12px;
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+  min-height: min-content;
+  min-width: min-content;
+  overflow: auto;
+  border: 1px solid #E5E5E5;
+}
+
+.location-header {
+  display: flex;
+}
+
+.location-header div {
+  background-color: #A7D9E2;
+  color: black;
+  white-space: nowrap;
+  display: inline-block;
+  min-width: 18%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-right: 1px solid #9ECED6;
+  text-align: center;
+}
+
+.location-header div:last-child {
+  border: none;
+}
+
+.location-row {
+  display: flex;
+}
+
+.location-row div {
+  background-color: white;
+  color: #47ADBD;
+  white-space: nowrap;
+  display: inline-block;
+  min-width: 18%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-right: 1px solid #9ECED6;
+  border-bottom: 1px solid #9ECED6;
+  padding-left: 9px;
+}
+
+.location-row div:last-child {
+  border-right: none;
 }
 
 .location {

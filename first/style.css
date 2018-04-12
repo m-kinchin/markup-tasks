@@ -80,6 +80,27 @@ body {
   margin-bottom: 5px;
 }
 
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #606060;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 2px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c7d2d3;
+}
+
 @media (max-width: 768px) {
   .main-left {
     flex-grow: 1;
