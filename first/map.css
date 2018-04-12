@@ -1,3 +1,18 @@
 .map {
   flex-basis: 230px;
+  flex-grow: 3;
+}
+
+.map-content{
+  overflow: hidden;
+  position: relative;
+  height: calc(100% - 30px);
+}
+
+.map-content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }

@@ -1,5 +1,6 @@
 .details {
   flex-basis: 230px;
+  flex-grow: 3;
 }
 
 .details-tabs {
@@ -37,7 +38,7 @@
   flex-basis: 32px;
 }
 
-.details-cell-data {
+.details-cell-content {
   padding-left: 9px;
   padding-top: 9px;
   flex-grow: 2;

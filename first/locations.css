@@ -1,6 +1,10 @@
 .locations {
   flex-basis: 330px;
-  width: 100%;
+  flex-grow: 5;
+}
+
+.locations-content {
+  font-size: 12px;
 }
 
 .location {

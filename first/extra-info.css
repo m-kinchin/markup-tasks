@@ -1,6 +1,7 @@
 .extra-info {
   background-color: #606060;
   flex-basis: 330px;
+  flex-grow: 5;
   display: flex;
   flex-direction: column;
 }
@@ -11,7 +12,7 @@
   flex-direction: column;
 }
 
-.world-cloud-data {
+.world-cloud-content {
   flex-basis: 100px;
   flex-grow: 1;
   background-color: white;
@@ -36,7 +37,7 @@
   flex-direction: column;
 }
 
-.comments-data {
+.comments-content {
   flex-basis: 100px;
   flex-grow: 1;
   background-color: white;
@@ -44,4 +45,10 @@
 
 .extra-area {
   flex-basis: 50%;
+}
+
+@media (max-width: 768px) {
+  .comments {
+    margin-bottom: 8px;
+  }
 }
