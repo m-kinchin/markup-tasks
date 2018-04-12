@@ -27,15 +27,14 @@
 .location-header div {
   background-color: #A7D9E2;
   color: black;
-  display: inline-block;
-  min-width: 18%;
+  min-width: 15%;
   padding-top: 9px;
   padding-bottom: 9px;
   border-right: 1px solid #9ECED6;
   text-align: center;
 }
 
-.location-header div:last-child {
+.location-header div:last {
   border: none;
 }
 
@@ -47,9 +46,7 @@
 .location-row div {
   background-color: white;
   color: #47ADBD;
-  white-space: nowrap;
-  display: inline-block;
-  min-width: 18%;
+  min-width: 15%;
   padding-top: 9px;
   padding-bottom: 9px;
   border-right: 1px solid #9ECED6;
