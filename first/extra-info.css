@@ -7,6 +7,18 @@
   min-height: 400px;
 }
 
+.extra-area {
+  flex-basis: 50%;
+}
+
+.extra-area-content {
+  flex-grow: 1;
+  background-color: white;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .world-cloud {
   flex-grow: 1;
   display: flex;
@@ -14,7 +26,6 @@
 }
 
 .world-cloud-content {
-  flex-basis: 50%;
   flex-grow: 1;
   background-color: white;
   min-height: 0;
@@ -51,12 +62,13 @@
 .slider-filter {
   margin-top: 10px;
   display: flex;
-  flex-basis: 50px;
+  min-height: 55px;
+  padding-top: 10px;
 }
 
 .filter-text {
   font-size: 12px;
-  flex-basis: 15%;
+  flex-basis: 75px;
   margin-left: 10px;
 }
 
@@ -103,10 +115,122 @@
   flex-basis: 100px;
   flex-grow: 1;
   background-color: white;
+  min-height: 0;
 }
 
-.extra-area {
-  flex-basis: 50%;
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  margin: 3px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.comment-head {
+  display: flex;
+  flex-basis: 40px;
+  justify-content: space-between;
+}
+
+.user {
+  display: flex;
+}
+
+.avatar {
+  min-height: 32px;
+  min-width: 32px;
+  margin: 10px;
+  background: url('./avatar.svg') no-repeat;
+  background-size: 32px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-top: 16px;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #ACDAE0;
+  margin-top: 16px;
+}
+
+.comment-likes {
+  display: flex;
+  flex-basis: 85px;
+}
+
+.positive-count {
+  font-size: 14px;
+  color: #1589A0;
+  margin-top: 12px;
+  margin-right: 5px;
+}
+
+.comment-likes div {
+  flex-basis: 20px;
+}
+
+.positive-hand {
+  background: url('./thumb-up.svg') no-repeat;
+  background-size: 16px;
+  background-position-y: center
+
+}
+
+.negative-count {
+  font-size: 14px;
+  color: #686868;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.negative-hand {
+  background: url('./thumb-down.svg') no-repeat;
+  background-size: 16px;
+  background-position-y: center
+
+}
+
+.comment-text {
+  font-size: 12px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #C5C5C5;
+}
+
+.comments-buttons {
+  margin-top: 10px;
+  display: flex;
+  min-height: 55px;
+}
+
+.leave-comment {
+  background-color: #F9C447;
+  flex-basis: 150px;
+  padding-top: 10px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.view-all {
+  text-decoration: underline;
+  background-color: transparent;
+  flex-basis: 150px;
+  padding-top: 10px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  padding-left: 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
